@@ -1,4 +1,3 @@
-PAGE_2
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,164 +5,96 @@ PAGE_2
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #content{
+            background-image:url('https://wallpaperaccess.com/full/6071697.jpg');
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;    
+        }
+    </style>
 </head>
-<body bgcolor=grey>
-    <h1 align="center">Submit Your Resume</h1>  
-    <form>
-        <fieldset>
-            <legend align="center">Personal details</legend>
-            <p align="Center">
-                <label for="fname" >First Name</label>
-                <input type="text" id="fname">
-            </p>
-            <p align="Center">
-                <label for="mname">Middle Name</label>
-                <input type="text" id="mname">
-            </p>
-            <p align="Center">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname">
-            </p>
-            <p align="Center">
-                <label for="dob">Date of Birth</label>
-                <input type="date" id="dob">
-            </p>
-            <p align="Center">
-                <label for="age">Age in Years</label>
-                <input type="number" id="age" placeholder="<30&>18">
+<body>
+    <div align="center">
+        <header style=background-color:black><img src=https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/285px-Manchester_United_FC_crest.svg.png alt="NBA logo" height="200"></header>
+    </div>
+    <div align="center">
+        <tr style=background-color:black>
+            <td><a href="#content">Home</a></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td><a href="#foot">Contact</a></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td><a href="WEB_PAGE2.html">2 page</a></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td><input type="text" placeholder="Search.."></td>
+        </tr>
+        <hr>
+    </div> 
+    <div id="content">
+        <div style="float: left;">
+    <br>
+    <br>
+    
+        <video src ="C:\Users\Prince\Downloads\nba nba.mp4" controls></video>
+    </div>
+        <div style="float: left; text-align: center; margin-top: 100px; margin-left: 50px;">
+            <h3 style="color:pink;"> Manchester United Football Club, commonly referred to as Man United (often stylised as Man Utd), or simply United, is a professional football club based in the Old Trafford area of Manchester, England. The club competes in the Premier League, the top division in the English football league system. Nicknamed the Red Devils, it was founded as Newton Heath LYR Football Club in 1878, but changed its name to Manchester United in 1902. The club moved from Newton Heath to its current stadium, Old Trafford, in 1910. </p>
+
+                <br></h3>
+                <audio controls>
+                    <source src="C:\Users\Prince\Downloads\nba_audio.mpeg" type="audio/mpeg">
+                </audio>
+        </div>
+    </div>
+    <hr>
+    <div align="center">
+    <table>
+    <tr>
+        <td>
+            <fieldset style="width:500px">
+            <legend></legend><br>
+            <h5>Sign Up</h5><br>
+
+            <p>
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                </div><br>
+                
+              <p><div>
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="password"
+                           minlength="8" required>
+                </div><br>
             </p>
             <p align="Center">   
-                Gender:<input type="radio" id="male" name="gender">
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender">
-                <label for="female">Female</label>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend align="center">Address details</legend>
-            <address align="Center">
-                <label for="Address">Address</label>
-                <input type="Address" id="message">
-            </address>
-            <p align="Center">
-                <label for="city">City/Town</label>
-                <input type="text" id="city">
-            </p>
-            <p align="Center">
-                <label for="state">State</label>
-                <input type="text" id="state">
-            </p>
-            <p align="Center">
-                <label for="Zip code">Date of Birth</label>
-                <input type="number" id="Zip code">
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend align="Center">Contact information</legend>
-            <p align="Center">
-                <label for="Telephone">Telephone</label>
-                <input type="tel" id="Phone">
-            </p>
-            <p align="center">
-                <label for="Phone">Mobile</label>
-                <input type="tel" id="phone">
-            </p>
-            <p align="Center">
-                <label for="Email">Email</label>
-                <input type="email" id="email">
-            </p>
-            <p align="Center">
-                <label for="website">website</label>
-                <input type="url" id="website">
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend align="center">Educational Details</legend>
-            <table border="3" align="Center">
-            <tr bgcolor="#cccccc">
-                <th>Qualification</th>
-                <th>Board/University</th>
-                <th>Country</th>
-                <th>Starting Years</th>
-                <th>Ending Year</th>
-                <th>Percentage</th>
-            </tr>
-            <tr>
-                <td><input type="checkbox">10th</td>
-                <td><input type="text" placeholder="Borad/University"></td>
-                <td>
-                    <select name="country" id="country">
-                        <option value="choose">Choose</option>
-                        <option value="India">India</option>
-                        <option value="Germany">Germany</option>
-                        <option value="France">France</option>
-                        <option value="Italy">Italy</option>
-                    </select>
-                </td>
-                <td><input type="date"></td>
-                <td><input type="date"></td>
-                <td><input type="number" placeholder="70"></td>
-            </tr>
-
-            <tr bgcolor="#ececec">
-                <td bgcolor="#ececec"><input type="checkbox">12th</td>
-                <td bgcolor="#ececec"><input type="text" placeholder="Borad/University"></td>
-                <td bgcolor="#ececec">
-                    <select name="country" id="country">
-                        <option value="choose">Choose</option>
-                        <option value="India">India</option>
-                        <option value="Germany">Germany</option>
-                        <option value="France">France</option>
-                        <option value="Italy">Italy</option>
-                    </select>
-                </td>
-                <td bgcolor="#ececec"><input type="date"></td>
-                <td bgcolor="#ececec"><input type="date"></td>
-                <td bgcolor="#ececec"><input type="number" placeholder="70"></td>
-            </tr>
-            <tr>
-                <td><input type="checkbox">B.Tech</td>
-                <td><input type="text" placeholder="Borad/University"></td>
-                <td>
-         
-                        <option value="choose">Choose</option>
-                        <option value="India">India</option>
-                        <option value="Germany">Germany</option>
-                        <option value="France">France</option>
-                        <option value="Italy">Italy</option>
-                    </select>
-                </td>
-                <td><input type="date"></td>
-                <td><input type="date"></td>
-                <td><input type="number" placeholder="70"></td>
-            </tr>
-            <tr>
-                <td bgcolor="#ececec"><input type="checkbox">M.Tech</td>
-                <td bgcolor="#ececec"><input type="text" placeholder="Borad/University"></td>
-                <td bgcolor="#ececec">
-                    <select name="country" id="country">
-                        <option value="choose">Choose</option>
-                        <option value="India">India</option>
-                        <option value="Germany">Germany</option>
-                        <option value="France">France</option>
-                        <option value="Italy">Italy</option>
-                    </select>
-                </td>
-                <td bgcolor="#ececec"><input type="date"></td>
-                <td bgcolor="#ececec"><input type="date"></td>
-                <td bgcolor="#ececec"><input type="number" placeholder="70"></td>
-            </tr>   
-        </table>
-        </fieldset>
-        <fieldset>
-            <p align="center">Attach your Resume in .doc or .pdf format:<input type="file" name="resume"></p>
-            <p align="center"><input type="checkbox">I fill all the details</p>
-        </fieldset>
-        <p align="center">
-            <input type="submit" name="send details">
-        </p>
-
-    </form>
-
+                <input type="submit" value="Register">
+            </p> 
+            </fieldset>
+        </td>
+        <td>
+           <br>
+            <h2>Contact Us</h2>
+            <address>Address 1</address>
+            <address>Address 2</address>
+            <address>Address 3</address>
+            Mail:<a href = "mailto:enquiries@manutd.co.uk." target="_blank">ManchesterUnited@gmail.com</a><br>
+            Phone no:(+91)(6382176374)
+        </td>
+        <td>
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/place/Old+Trafford/@53.4630589,-2.2913401,15z/data=!4m2!3m1!1s0x0:0x6c930e96df4455fe?sa=X&hl=en&ved=2ahUKEwi3w-TM2qP5AhWjS2wGHTNhDDoQ_BJ6BAhzEAU" target="_blank"></iframe><a href="https://www.kokagames.com/fnf-friday-night-funkin-mods/">Friday Night Funkin Mods</a></div><style>.mapouter{position:relative;text-align:right;width:306px;height:142px;}.gmap_canvas {overflow:hidden;background:none!important;width:306px;height:142px;}.gmap_iframe {width:306px!important;height:142px!important;}</style></div>
+        </td>
+    </tr>
+    </table>
+    </div>
+    <hr>
+</div align="centre">
+<footer>
+    <div id="foot">
+    <a href="https://www.facebook.com/nba" target="_blank">facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/nba/" target="_blank">insta</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+    </div>
+</footer>
 </body>
-</html>           <select name="country" id="country">
+</html
